@@ -1,3 +1,3 @@
 # EEVM Tech Division HTML & CSS Practice
 
-Each tech associate will have their own page on this practice website.
+Each tech associate has their own page on this practice website.
