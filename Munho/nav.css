@@ -1,0 +1,63 @@
+{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+
+nav{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	min-height: 8vh;
+	background-color: #8db8fc;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.logo{
+	color: white;
+	text-transform: uppercase;
+	letter-spacing: 5px;
+	font-size:  20px;
+}
+
+.nav-links {
+	display: flex;
+	justify-content: space-around;
+	width: 30%;
+}
+
+/* remove default bullet points */
+.nav-links li{
+    list-style: none;
+
+/* actual links */
+.nav-links a{
+	color: white;
+	text-decoration: none;
+	letter-spacing: 3px;
+	font-size: 14px;
+}
+
+.nav-links a:hover{
+	color: black;
+}
+
+@media screen and (max-width: 1024px) {
+	.nav-links {
+		width: 60%;
+	}
+}
+
+@media screen and (max-width:  768px) {
+	.nav-links {
+		position: absolute;
+		right: 0px;
+		height: 92vh;
+		top: 8vh;
+		background-color: #8db8fc;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		width:  50%;
+	}
+}
